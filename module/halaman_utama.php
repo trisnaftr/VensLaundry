@@ -2,7 +2,7 @@
 session_start();
 if (empty($_SESSION['username']) and empty($_SESSION['password'])) {
 	echo "<script type='text/javascript'>
-	alert('SILAKAN LOGIN TERLEBIH DAHULU!')
+	alert('SILAKAN LOGIN TERLEBIH DAHULU!!')
 	window.location='../index.php';
 	</script>";
 } else {
